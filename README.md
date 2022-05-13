@@ -1,6 +1,6 @@
 <div><h1>Algoritmos_Logica_Programação</h1></div>
 <div>
-<h2><strong>O que é um Algoritmo?</strong></h2>
+<h2><strong>| O que é um Algoritmo?</strong></h2>
 
 <p>É uma sequência de instruções com um determinado fim para resolver um problema</p>
   <h3>Exemplo</h3>
@@ -16,23 +16,28 @@
 <hr/><br/>
 </div>
 
-<h2><strong>Linguagem de programação?</strong></h2>
+<h2><strong>| Linguagem de programação?</strong></h2>
 
 <p>É um conjunto de regras <strong>léxicas(ortografia)</strong> e <strong>sintáticas (gramáticas)(ortografia)</strong> para se escrever programas, de uma forma clara deve estar escrito de acordo com a exeistência da linguagem e na sequência lógica também</p><br/><hr/><br/>
 
-<h3>Exemplo de algoritimo em linguagem C</h3>
-<p>
-#include <stdio.h>
+<br/>| Algorito<br/>
+<br/> Digite o primeiro numero: 3
+<br/> Digite o segundo numero: 6
+<br/> Media = 4.5<br/>
 
-int main(){
-  double x,y,media;
+<h3>| Exemplo da lógica do algoritimo em linguagem de programação C</h3>
+<p>
+<br/> #include <stdio.h>
+
+<br/> int main() {
+<br/> double x,y,media;
   
-  printf("Digite o primeiro numero:");
-  scanf("%lf",&x);
-  printf("Digite o segundo numero:");
-  scanf("%lf",&y);
-  media = (x + y)/ 2.0;
-  printf("Media = %.lf\n",media);
-  return 0;
-  }
-  </p>
+<br/> printf("Digite o primeiro numero:");
+<br/> scanf("%lf",&x);
+<br/> printf("Digite o segundo numero:");
+<br/> scanf("%lf",&y);
+<br/> media = (x + y)/ 2.0;
+<br/> printf("Media = %.lf\n",media);
+<br/> return 0;
+<br/> }
+</p>
