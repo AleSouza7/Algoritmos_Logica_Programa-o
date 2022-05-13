@@ -3,17 +3,15 @@
 <h2><strong>O que é um Algoritmo?</strong></h2>
 
 <p>É uma sequência de instruções com um determinado fim para resolver um problema</p>
-<br/>
-
   <h3>Exemplo</h3>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>1) Colocar a roupa em um recipiente</li>
+  <li>2) Colocar um pouco de sabão e amaciante</li>
+  <li>3) Encher de água</li>
+  <li>4) Mexer tudo até dissolver todo o sabão</li>
+  <li>5) Deixar de molho por vinte minutos</li>
+  <li>6) Esfregar aa roupa</li>
+  <li>7) Enxaguar</li>
+  <li>8) Torcer</li>
   
 <hr/><br/>
 </div>
