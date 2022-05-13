@@ -18,4 +18,20 @@
 
 <h2><strong>Linguagem de programação?</strong></h2>
 
-<p>É um conjunto de regras <strong>léxicas(ortografia)</strong> e <strong>sintáticas (gramáticas)(ortografia)</strong> para se escrever programas, de uma forma clara deve estar escrito de acordo com a exeistência da linguagem e na sequência lógica também</p>
+<p>É um conjunto de regras <strong>léxicas(ortografia)</strong> e <strong>sintáticas (gramáticas)(ortografia)</strong> para se escrever programas, de uma forma clara deve estar escrito de acordo com a exeistência da linguagem e na sequência lógica também</p><br/><hr/><br/>
+
+<h3>Exemplo de algoritimo em linguagem C</h3>
+
+#include <stdio.h>
+
+int main(){
+  double x,y,media;
+  
+  printf("Digite o primeiro numero:");
+  scanf("%lf",&x);
+  printf("Digite o segundo numero:");
+  scanf("%lf",&y);
+  media = (x + y)/ 2.0;
+  printf("Media = %.lf\n",media);
+  return 0;
+  }
