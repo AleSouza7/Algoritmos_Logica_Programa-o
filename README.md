@@ -21,7 +21,7 @@
 <p>É um conjunto de regras <strong>léxicas(ortografia)</strong> e <strong>sintáticas (gramáticas)(ortografia)</strong> para se escrever programas, de uma forma clara deve estar escrito de acordo com a exeistência da linguagem e na sequência lógica também</p><br/><hr/><br/>
 
 <h3>Exemplo de algoritimo em linguagem C</h3>
-
+<p>
 #include <stdio.h>
 
 int main(){
@@ -35,3 +35,4 @@ int main(){
   printf("Media = %.lf\n",media);
   return 0;
   }
+  </p>
