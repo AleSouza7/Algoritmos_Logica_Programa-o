@@ -15,3 +15,7 @@
   
 <hr/><br/>
 </div>
+
+<h2><strong>Linguagem de programação?</strong></h2>
+
+<p>É um conjunto de regras <strong>léxicas(ortografia)</strong> e <strong>sintáticas (gramáticas)(ortografia)</strong> para se escrever programas, de uma forma clara deve estar escrito de acordo com a exeistência da linguagem e na sequência lógica também</p>
