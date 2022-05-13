@@ -1,4 +1,4 @@
-<div><h1>Algoritmos_Logica_Programação</h1></div>
+<div><h1>Algoritmos e Lógica de Programação</h1></div>
 <div>
 <h2><strong>| O que é um Algoritmo?</strong></h2>
 
