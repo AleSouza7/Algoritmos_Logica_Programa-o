@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Alex"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-20 11:36:12 "/>
+        <attribute name="created" value="QWxleDtERVNLVE9QLTBUVDkyQzY7MjAyMi0wNC0yMDsiMTA6NTY6MjcgIjsyNjA5"/>
+        <attribute name="edited" value="QWxleDtERVNLVE9QLTBUVDkyQzY7MjAyMi0wNC0yMDsiMTE6MzY6MTIgIjsxOzI3MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Janeiro, Fevereiro, Mar&#231;o, Abril, Media, Total" type="Real" array="False" size=""/>
+            <assign variable="janeiro" expression="3000.00"/>
+            <assign variable="fevereiro" expression="5000.50"/>
+            <assign variable="mar&#231;o" expression="6000.00"/>
+            <assign variable="abril" expression="8000.33"/>
+            <assign variable="Media" expression="(janeiro+fevereiro+mar&#231;o+abril)/4"/>
+            <output expression="&quot;A media de desse vendedor ficou em R$ &quot;&amp;media" newline="True"/>
+            <if expression="media&gt;=5000.00">
+                <then>
+                    <output expression="&quot;A sua bonifica&#231;&#227;o foi de R$ 1000.00 pois sua media ficou em R$ &quot;&amp;media" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A bonifica&#231;&#227;o n&#227;o atingiu a media no entanto voc&#234; ganhou uma bonifica&#231;&#227;o de 10%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

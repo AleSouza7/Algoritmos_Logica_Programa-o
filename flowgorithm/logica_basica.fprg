@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Alex"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-14 10:16:09 "/>
+        <attribute name="created" value="QWxleDtERVNLVE9QLTBUVDkyQzY7MjAyMi0wNS0xMzsiMDY6MDA6MzUgIjsyNjA1"/>
+        <attribute name="edited" value="QWxleDtERVNLVE9QLTBUVDkyQzY7MjAyMi0wNS0xNDsiMTA6MTY6MDkgIjsxOzI3MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d" type="Boolean" array="False" size=""/>
+            <declare name="c" type="String" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="d" expression="true"/>
+            <assign variable="c" expression="&quot;Ola meu nome &#233; Alex&quot;"/>
+            <assign variable="b" expression="2.34567"/>
+            <assign variable="a" expression="32"/>
+            <output expression="a" newline="True"/>
+            <output expression="b" newline="True"/>
+            <output expression="c" newline="True"/>
+            <output expression="d" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

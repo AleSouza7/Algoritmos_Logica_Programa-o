@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Alex"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-19 07:49:32 "/>
+        <attribute name="created" value="QWxleDtERVNLVE9QLTBUVDkyQzY7MjAyMi0wNC0xOTsiMDc6MzE6MzEgIjsyNjEx"/>
+        <attribute name="edited" value="QWxleDtERVNLVE9QLTBUVDkyQzY7MjAyMi0wNC0xOTsiMDc6NDk6MzIgIjsxOzI3Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="true">
+                <then>
+                    <input variable="numero"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#227;o foi possivel continuar pois n&#227;o tem cart&#227;o&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
